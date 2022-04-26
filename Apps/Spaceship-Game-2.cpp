@@ -8,6 +8,8 @@
 #include "Misc.h"
 #include "Sprite.h"
 
+//Test Change
+
 //Application Display, modify size here
 GLFWwindow* w;
 int winWidth = 1000, winHeight = 600;
