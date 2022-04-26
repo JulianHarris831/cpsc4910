@@ -30,7 +30,7 @@
     <ClCompile Include="..\Lib\Draw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Spaceship-Game-2.cpp">
+    <ClCompile Include="Spaceship-fighter-game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
