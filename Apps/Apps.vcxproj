@@ -80,6 +80,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)Include;$(SolutionDir);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -148,7 +149,7 @@
     <ClCompile Include="..\Lib\GLXtras.cpp" />
     <ClCompile Include="..\Lib\Misc.cpp" />
     <ClCompile Include="..\Lib\Sprite.cpp" />
-    <ClCompile Include="Spaceship-Game-2.cpp" />
+    <ClCompile Include="Spaceship-fighter-game.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
