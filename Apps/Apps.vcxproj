@@ -148,7 +148,7 @@
     <ClCompile Include="..\Lib\GLXtras.cpp" />
     <ClCompile Include="..\Lib\Misc.cpp" />
     <ClCompile Include="..\Lib\Sprite.cpp" />
-    <ClCompile Include="Spaceship-Game-2.cpp" />
+    <ClCompile Include="Spaceship-fighter-game.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
