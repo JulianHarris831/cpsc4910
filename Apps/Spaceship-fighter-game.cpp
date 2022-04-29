@@ -7,6 +7,8 @@
 #include "Misc.h"
 #include "Sprite.h"
 
+//Push test comment
+
 // Application Display
 GLFWwindow *w;
 int winWidth = 1000, winHeight = 600;
@@ -15,7 +17,7 @@ time_t startTime = clock();										// start time of application
 
 // Sprites
 Sprite background, splash, spaceship, arrow, saucer, asteroid, laser;
-string dir = "C:/Users/Benediktus Albert/Graphics/";
+string dir = "C:/dev/Graphics/IMG/";
 string splashTex = dir + "space-start.png";						// png, tga ok; bmp, jpg do not support 32
 string arrowTex = dir + "arrow-32.png";
 string spaceshipTex = dir+"spaceship-32.png";
